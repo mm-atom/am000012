@@ -1,2 +1,3 @@
-export default function fun() {
+
+export default function am12(param1: string) {
 }
