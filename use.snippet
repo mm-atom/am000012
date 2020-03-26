@@ -1,8 +1,9 @@
 	// 页面跳转(默认特效)
 	/**
-	 * ${0:变量注释}
+	 * 参数对应的key
 	 */
 	const r$CURRENT_SECONDS_UNIX = await(() => {
-		const p1 = $1;	// 参数注释
-		return am12(p1);
+		const p1 = $1;	// 页面名
+		const p2 = $2;	// 跳转参数
+		return am12(mm, p1, p2);
 	})();
