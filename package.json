@@ -37,9 +37,6 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {
-		"uuid": "7.0.2"
-	},
 	"devDependencies": {
 		"@mmstudio/am000001": "latest",
 		"@react-navigation/bottom-tabs": "^5.2.4",
@@ -48,7 +45,6 @@
 		"@react-navigation/native": "^5.1.3",
 		"@react-navigation/stack": "^5.2.6",
 		"@types/react-native": "latest",
-		"@types/uuid": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"del-cli": "latest",
