@@ -7,7 +7,8 @@
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
-		"build": "npm run clean && npm run lint && npm run compile"
+		"build": "npm run clean && npm run lint && npm run compile",
+		"up": "git pull git@github.com:mm-tpl/atom-mobile.git master"
 	},
 	"repository": {
 		"type": "https+git",
@@ -40,11 +41,11 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@mmstudio/am000001": "latest",
-		"@react-navigation/bottom-tabs": "^5.2.4",
-		"@react-navigation/drawer": "^5.3.4",
-		"@react-navigation/material-bottom-tabs": "^5.1.6",
-		"@react-navigation/native": "^5.1.3",
-		"@react-navigation/stack": "^5.2.6",
+		"@react-navigation/bottom-tabs": "latest",
+		"@react-navigation/drawer": "latest",
+		"@react-navigation/material-bottom-tabs": "latest",
+		"@react-navigation/native": "latest",
+		"@react-navigation/stack": "latest",
 		"@types/react-native": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
